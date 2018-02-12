@@ -1,0 +1,98 @@
+html {
+  color: #1D1D1D;
+  font-family: 'Space Mono', monospace;
+}
+
+body {
+	margin: 0;
+}
+
+.left {
+	bottom: 0;
+	background-color: #1E1D32;
+	color: white;
+	height: 100%;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 40%;
+}
+
+.blurb {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100%;
+	margin: 75px 85px 50px;
+}
+
+.name {
+  font-size: 42px;
+}
+
+.link {
+	color: #85BAA1;
+	text-decoration: none;
+}
+
+.link:hover {
+  opacity: .7;
+}
+
+.contacts {
+  padding-top: 20px;
+}
+
+.icon {
+  height: 32px;
+  padding-right: 25px;
+  width: 32px;
+}
+
+.icon img {
+  height: 32px;
+  width: 32px;
+}
+
+.icon img:hover {
+  opacity: .7;
+}
+
+.right {
+  margin-left: 40%;
+  width: 60%;
+}
+
+.top_image_container {
+  height: 25%;
+  width: 100%;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.section {
+	padding: 64px;
+}
+
+.work {
+	background-color: #f6e8e5;
+}
+
+.job {
+	line-height: 1;
+	padding-bottom: 1px;
+}
+
+.company {
+	
+}
+
+.date {
+	float: right;
+	font-size: .8em;
+	font-weight: lighter;
+}
