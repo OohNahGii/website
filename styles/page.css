@@ -4,26 +4,26 @@ html {
 }
 
 body {
-	margin: 0;
+  margin: 0;
 }
 
 .left {
-	bottom: 0;
-	background-color: #1E1D32;
-	color: white;
-	height: 100%;
-	left: 0;
-	position: fixed;
-	top: 0;
-	width: 40%;
+  bottom: 0;
+  background-color: #1E1D32;
+  color: white;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 40%;
 }
 
 .blurb {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	height: 100%;
-	margin: 75px 85px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  margin: 75px 85px 50px;
 }
 
 .name {
@@ -31,8 +31,8 @@ body {
 }
 
 .link {
-	color: #85BAA1;
-	text-decoration: none;
+  color: #85BAA1;
+  text-decoration: none;
 }
 
 .link:hover {
@@ -40,18 +40,20 @@ body {
 }
 
 .contacts {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
   padding-top: 20px;
 }
 
 .icon {
-  height: 32px;
   padding-right: 25px;
-  width: 32px;
 }
 
-.icon img {
-  height: 32px;
-  width: 32px;
+.icon.linkedin {
+  padding-right: 20px;
+  /*height: 34px;
+  width: 34px;*/
 }
 
 .icon img:hover {
@@ -75,24 +77,24 @@ body {
 }
 
 .section {
-	padding: 64px;
+  padding: 64px;
 }
 
 .work {
-	background-color: #f6e8e5;
+  background-color: #f6e8e5;
 }
 
 .job {
-	line-height: 1;
-	padding-bottom: 1px;
+  line-height: 1;
+  padding-bottom: 1px;
 }
 
 .company {
-	
+  
 }
 
 .date {
-	float: right;
-	font-size: .8em;
-	font-weight: lighter;
+  float: right;
+  font-size: .8em;
+  font-weight: lighter;
 }
