@@ -8,26 +8,8 @@ body {
 }
 
 .left {
-  bottom: 0;
   background-color: #1E1D32;
   color: white;
-  height: 100%;
-  left: 0;
-  position: fixed;
-  top: 0;
-  width: 40%;
-}
-
-.blurb {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 100%;
-  margin: 75px 85px 50px;
-}
-
-.name {
-  font-size: 42px;
 }
 
 .link {
@@ -37,6 +19,10 @@ body {
 
 .link:hover {
   opacity: .7;
+}
+
+.name {
+  font-size: 42px;
 }
 
 .contacts {
@@ -52,21 +38,14 @@ body {
 
 .icon.linkedin {
   padding-right: 20px;
-  /*height: 34px;
-  width: 34px;*/
 }
 
 .icon img:hover {
   opacity: .7;
 }
 
-.right {
-  margin-left: 40%;
-  width: 60%;
-}
-
 .top_image_container {
-  height: 25%;
+  height: 25vh;
   width: 100%;
 }
 
@@ -76,8 +55,8 @@ body {
   object-fit: cover;
 }
 
-.section {
-  padding: 64px;
+.section_title {
+  margin-top: 0;
 }
 
 .work {
@@ -89,12 +68,86 @@ body {
   padding-bottom: 1px;
 }
 
-.company {
-  
-}
-
 .date {
   float: right;
   font-size: .8em;
   font-weight: lighter;
+}
+
+
+@media (min-width: 900px) {
+  .left {
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 40%;
+  }
+
+  .blurb {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    margin: 75px 85px 50px;
+  }
+
+  .right {
+    height: 100%;
+    margin-left: 40%;
+    width: 60%;
+  }
+
+  .section {
+    padding: 64px;
+  }
+}
+
+@media (max-width: 900px) {
+  .left {
+    width: 100%;
+  }
+
+  .blurb {
+    padding: 50px;
+  }
+
+  .right {
+    width: 100%;
+  }
+
+  .section {
+    padding: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .job {
+    padding-bottom: 30px;
+  }
+
+  .job.last {
+    padding-bottom: 0;
+  }
+
+  .job_header {
+    margin: 0;
+    padding-bottom: 4px;
+  }
+
+  .job_title {
+    margin: 0;
+  }
+
+  .company {
+    display: block;
+    padding-bottom: 5px
+  }
+
+  .date {
+    display: block;
+    float: none;
+    font-style: italic;
+  }
 }
