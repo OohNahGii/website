@@ -1,5 +1,5 @@
 # Personal Website
-Static website hosted on AWS. Can be viewed ![here](www.grantramil.com).
+Static website hosted on AWS. Can be viewed [here](www.grantramil.com).
 
 ## Todo
 - [ ] Find better picture for header
